@@ -8,16 +8,17 @@ import org.junit.Test;
  */
 
 public class GameHistoryTrackerTest {
+    GameHistoryTracker tracker = new GameHistoryTracker();
 
     @Test
     void TestRecordPlay() {
-
-
+        tracker.recordPlay(null, null);
+        
     }
 
     @Test
     void TestDisplayHistory() {
-
+        
 
     }
 
