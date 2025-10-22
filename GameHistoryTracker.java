@@ -34,7 +34,7 @@ class GameHistoryTracker implements Serializable {
     }
 
     /**
-     * Displays a summary of play history sorted in ascending order
+     * Displays a summary of play history sorted in descending order
      * along with corresponding scores, if any.
      */
     public void displayHistory() {
@@ -46,8 +46,8 @@ class GameHistoryTracker implements Serializable {
         statsMap.entrySet().stream()
                 .sorted((a, b) -> {
                     int cmp = Integer.compare(
-                            a.getValue().getTimesPlayed(),
-                            b.getValue().getTimesPlayed()
+                            b.getValue().getTimesPlayed(),
+                            a.getValue().getTimesPlayed()
                     );
                     return (cmp != 0)
                             ? cmp
