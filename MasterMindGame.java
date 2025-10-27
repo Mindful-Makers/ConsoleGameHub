@@ -17,14 +17,8 @@ class MasterMindGame implements Game {
     }
 
     @Override
-    public Optional<Integer> play() {
-        System.out.println("[Playing MasterMind - Placeholder]");
-        createSecret();
-        return Optional.empty();
-    }
    public Optional<Integer> play() {
         System.out.println("[Playing MasterMind - Placeholder]");
-        String SECRET_STRING = generateSecret();
         return Optional.empty();
     }
     //Generates a random length 4 secret code for Mastermind game session       
@@ -34,6 +28,8 @@ class MasterMindGame implements Game {
 	//converts int into string of length 4                                  
 	String secretString = String.format("%04d", secretInt);
 	return secretString;
+
+}
 
 }
 
