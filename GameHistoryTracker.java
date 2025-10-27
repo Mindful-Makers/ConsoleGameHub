@@ -99,7 +99,8 @@ class GameHistoryTracker implements Serializable {
      */
     public static GameHistoryTracker loadHistory(final String filename) {
         try (ObjectInputStream in
-                = new ObjectInputStream(new FileInputStream(filename))) {
+                = new ObjectInputStream(new FileInputStream(filename)))
+            {
             return (GameHistoryTracker) in.readObject();
         } catch (IOException | ClassNotFoundException e) {
             System.err.println(

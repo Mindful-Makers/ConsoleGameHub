@@ -21,16 +21,19 @@ class MasterMindGame implements Game {
         System.out.println("[Playing MasterMind - Placeholder]");
         return Optional.empty();
     }
-    //Generates a random length 4 secret code for Mastermind game session       
+/**
+* Generates a random length 4 secret code for Mastermind game session.
+* @return uniquely generated secret string used for Mastermind game session.
+*/
     public static String generateSecret() {
-	//Generates int between 0 and 9999                                      
-	int secretInt = (int)(Math.random()*9999);
-	//converts int into string of length 4                                  
-	String secretString = String.format("%04d", secretInt);
-	return secretString;
-
-}
-
+//9999 is a magic number
+        final int maxNum = 9998 + 1;
+//Generates int between 0 and 9999.
+        int secretInt = (int) (Math.random() * maxNum);
+//converts int into string of length 4.
+        String secretString = String.format("%04d", secretInt);
+        return secretString;
+        }
 }
 
 
