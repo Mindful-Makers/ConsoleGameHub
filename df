@@ -1,0 +1,504 @@
+[33mcommit 71affa51565a36189e720a7935cf5fec028e42ae[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32morigin/issue-34-gg[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/issue-68-js[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Matt <mjcantin@yahoo.com>
+Date:   Mon Oct 20 14:18:32 2025 -0600
+
+    Ignore .idea/ folder (#127)
+    
+    * Add .idea/ to .gitignore
+    
+    Signed-off-by: Matt <mjcantin@yahoo.com>
+
+[33mcommit 0c8b65f8a903d25b88230c2b35d0dceeec18c178[m
+Author: Matt <mjcantin@yahoo.com>
+Date:   Wed Oct 15 15:44:46 2025 -0600
+
+    Added ASCII art to Game Launcher (#128)
+    
+    * Added ASCII art to game launcher
+    ---------
+    
+    Signed-off-by: Matt <mjcantin@yahoo.com>
+    Signed-off-by: Jody Paul <jody@users.noreply.github.com>
+    Co-authored-by: Matt Cantin <mcantin@msudenver.edu>
+    Co-authored-by: Jody Paul <jody@users.noreply.github.com>
+
+[33mcommit 1a55d42ac548902c3355f123a4d5855c3e934f66[m
+Author: Matt <mjcantin@yahoo.com>
+Date:   Wed Oct 15 15:19:15 2025 -0600
+
+    Added ASCII art to game launcher  (#120)
+    
+    * Added ASCII art to game launcher
+
+[33mcommit 64e067dc21df5f929afe6fe6a429dbbe3fc0dc46[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Sat Oct 11 22:56:59 2025 -0600
+
+    Update README with code quality check section (#118)
+    
+    Added "dynamic analysis" label for Test section and a static analysis section to README.
+    
+    Signed-off-by: Jody Paul <jody@users.noreply.github.com>
+
+[33mcommit df640e12aac99d331bfbb64e0a4030c2c7256c1b[m
+Author: Giorgina Gottlieb <github.viscosity902@passmail.net>
+Date:   Sat Oct 11 22:34:26 2025 -0600
+
+    Added startup description for Snake (#113)
+    
+    * added description for snake game
+    
+    ---------
+    
+    Co-authored-by: flanky <evizcarr@msudenver.edu>
+
+[33mcommit 91e2740bc8b62a1c2104978876f87a9b5ef4d196[m
+Author: JP <mi8iubpvxerf@opayq.com>
+Date:   Mon Sep 29 16:35:28 2025 -0600
+
+    Updated templates and .gitignore
+
+[33mcommit 391921fce5f2d649ea9dde059b8c74d84dfd2d67[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Wed Sep 24 12:49:41 2025 -0600
+
+    Update executable Jar file reference and instructions
+    
+    Updated the reference to the executable Jar file and adjusted execution instructions.
+    
+    Signed-off-by: Jody Paul <jody@users.noreply.github.com>
+
+[33mcommit 0fc565ea30c9b46f0bf11baae6338d8e2c81e6df[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Wed Sep 24 12:46:46 2025 -0600
+
+    Update executable file reference in documentation
+    
+    Signed-off-by: Jody Paul <jody@users.noreply.github.com>
+
+[33mcommit 16ddb4643688c82f7a07574a5663179ddc71331f[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Wed Sep 24 12:42:11 2025 -0600
+
+    Revise README for Console Game Hub project
+    
+    Updated project name and links in README.md
+    
+    Signed-off-by: Jody Paul <jody@users.noreply.github.com>
+
+[33mcommit df3a6c9e04f1a7712052dce264008f74ac73b06e[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Wed Sep 24 12:40:29 2025 -0600
+
+    Revise documentation for Console Game Hub (#106)
+    
+    Updated project name and repository links in documentation.
+    Signed-off-by: Jody Paul <jody@users.noreply.github.com>
+
+[33mcommit f2c73aa026bde94538384c19ca113aee293199f4[m
+Author: Jody <jody@acm.org>
+Date:   Tue May 20 23:24:11 2025 -0600
+
+    Addressed additional identified code quality issues.
+
+[33mcommit d07629811c96ed0dcd235eb7630837a4e53933be[m
+Author: Jody <jody@acm.org>
+Date:   Tue May 20 23:15:35 2025 -0600
+
+    Code cleanup (checkstyle, javadoc, pmd)
+
+[33mcommit 4473bf515efd9bef7404004180651bbd51134003[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Fri May 9 15:56:22 2025 -0600
+
+    Update index.md for public visiblity and Console Game Hub project (#103)
+
+[33mcommit 5e2b16159c5930855fad8eb86f7fac1cb3ad153c[m
+Author: ellebond <116029368+ellebond@users.noreply.github.com>
+Date:   Thu May 8 09:19:06 2025 -0600
+
+    Add description to WordGuessGame. Closes: #24 (#94)
+    
+    * Add description to WordGuessGame.
+
+[33mcommit 2868e73338fb9775b1152b57a7e40bf91d35f8f6[m
+Author: Mason Proctor <161349742+MProctor41@users.noreply.github.com>
+Date:   Wed May 7 17:37:35 2025 -0600
+
+    Resolves #35. Adds clear history and clear history tests (#97)
+    
+    Added a clearHistory method to GameHistoryTracker, and a option to clear History from GameLauncher
+
+[33mcommit d0ac49ff32ef3345b95cb2133b64313da04cd889[m
+Author: Spencer Church <165697640+Spencer-Church@users.noreply.github.com>
+Date:   Wed May 7 17:03:49 2025 -0600
+
+    Resolves #15 Added description to HangmanGame.java (#60)
+    
+    * Add description to HangmanGame.java
+
+[33mcommit 925d2844ba709ef1eafdfe9bad325e1707778a60[m
+Author: Fernando Ruiz <freshr1515@gmail.com>
+Date:   Sat Apr 26 15:42:10 2025 -0600
+
+    Adds startup description for Memory Match game for User Story #19 (#92)
+
+[33mcommit 1fb1e22ed30173192a6c1947c058ebf8529e2534[m
+Author: CNinteman <91085284+CNinteman@users.noreply.github.com>
+Date:   Thu Apr 24 09:46:05 2025 -0600
+
+    Added Description For Minesweeper Game (#59)
+    
+    * Added Description
+
+[33mcommit 38cf9cb705e0aa4f3cfb7470b89ca01f5fb92634[m
+Author: mateop06 <100103557+mateop06@users.noreply.github.com>
+Date:   Tue Apr 22 14:06:22 2025 -0600
+
+    Description added for TicTacToe Game. issue#14 (#62)
+
+[33mcommit d4b923b5af4a863a7ab8b8487987f7bfe346b0d8[m
+Author: CanaDev <45052003+TylerAndreasen@users.noreply.github.com>
+Date:   Tue Apr 22 09:14:54 2025 -0600
+
+    Expanded Jotto description and added example. (#82)
+    
+    * Expanded Jotto description and added example.
+
+[33mcommit 60941ebe85b053c94f79f10818c859189a74fe19[m
+Author: LandryLuamba <146769561+LandryLuamba@users.noreply.github.com>
+Date:   Tue Apr 22 09:09:36 2025 -0600
+
+    Errors in Number Guessing game (#81)
+    
+    * fixed changes for NumberGuess
+
+[33mcommit de46d5acf7545cfbb889bde9ace5e31ae60f4d14[m
+Author: ctMarina <marinachaparro15@gmail.com>
+Date:   Thu Apr 17 09:43:52 2025 -0600
+
+    Added description for Lights Out Game. Closes: #17 (#76)
+    
+    All good to squash and merge.
+
+[33mcommit e7588716911845a90750a72986f59006c9316873[m
+Author: LandryLuamba <146769561+LandryLuamba@users.noreply.github.com>
+Date:   Tue Apr 15 10:06:45 2025 -0600
+
+    Hangman game random list of words (issue #51) (#71)
+    
+    Ready to merge.
+
+[33mcommit 713039101465f58539809f205f87ce296d96b2d8[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Wed Apr 9 18:40:14 2025 -0600
+
+    Modify build.xml -- change "run" to show instructions (#73)
+
+[33mcommit 0c85d1cec32d54e9f7bdab16f96eb15df039ae2e[m
+Author: ziraqi <126034358+ziraqi@users.noreply.github.com>
+Date:   Tue Apr 8 09:41:42 2025 -0600
+
+    Resolved issue #21, Adding a description of the Number Guessing Game (#61)
+    
+    * added a brief description when selecting game
+
+[33mcommit abc23ec7c8ff2bf8246b151f4a9f5843388e6470[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Sat Apr 5 16:29:53 2025 -0600
+
+    Modify GameLauncher to allow future regression testing (#66)
+    
+    * Created tests for a refactored GameLauncher class
+    * Refactored GameLauncher (includes visibility changes)
+    * Updated GameLauncherTest to take advantage of testable API including history data saving
+    * Refactored GameLauncher for testability of history data saving
+    * [ancillary] Modified .gitignore to Ignore API documentation which should be generated dynamically
+
+[33mcommit 0141b32d6d5ab4455d8ea2014d9dcfb0ef57b66b[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Sat Apr 5 13:38:12 2025 -0600
+
+    Update README.md with Project link (#65)
+
+[33mcommit aa2f63b673f380875e52c45d522e4f57f714f69e[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Tue Apr 1 10:55:34 2025 -0600
+
+    Update README.md with vision (#56)
+    
+    * Update README.md with vision
+    * Update README.md typo detected by Copilot
+    
+    Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>
+    
+    ---------
+    
+    Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>
+
+[33mcommit 0f021fc653ca0f05e362da1344176485342e5592[m
+Author: jody <jody@acm.org>
+Date:   Tue Apr 1 10:27:14 2025 -0600
+
+    Corrected the project name used to name the jar file
+
+[33mcommit 0fc344598a63fc8bffeae809a1091127059b076c[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Tue Apr 1 08:49:23 2025 -0600
+
+    Merge Games (#55)
+    
+    * Add game arcade support
+    * Added the reports/ directory to .gitignore
+    * Light clean-up of source code. No logic changes.
+    * Add example of ASCII art text
+    * Removed Util project files: Demo.java, Util.java, UtilDetectRepeatsTest.java
+    * Light cleaning of source code. Added @version tags to classes.
+    * Add PMD evaluation to product build. (Also add CC license to API docs.)
+    * Corrected URL for license from LICENSE to LICENSE.md
+    * Untabify GameLauncher.java
+
+[33mcommit 42f000745287fa927081434c90fd83b3c00f289d[m
+Merge: 4f14990 928c1c9
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Tue Apr 1 08:47:57 2025 -0600
+
+    Merge pull request #54 from MetroCS/repeats
+    
+    merge Repeats 1
+
+[33mcommit 4f1499084a477d17736bd5b32b5e9b6b052aab49[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Tue Mar 18 08:55:29 2025 -0600
+
+    Delete UtilFibonTest.java
+
+[33mcommit cf3cafdfb8a72606927efc546e6424d7808f412a[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Tue Mar 18 08:54:46 2025 -0600
+
+    Delete UtilTest.java
+
+[33mcommit 928c1c9e7ea2f60f15cf3117e7afb3d6f1b892e7[m
+Author: jody <jody@acm.org>
+Date:   Tue Mar 18 08:51:43 2025 -0600
+
+    Removed UtilTest.java
+
+[33mcommit 5bbd246af8d60dc3514e6a60257e64bce50518f2[m
+Author: jody <jody@acm.org>
+Date:   Tue Mar 18 08:49:29 2025 -0600
+
+    Removed UtilFibonTest.java
+
+[33mcommit ed0f04da1b1bcd3698abbaad77c05acb38a2e7c5[m
+Merge: 58da030 b9345d8
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Tue Mar 18 08:46:53 2025 -0600
+
+    Merge pull request #11 from MetroCS/repeats
+    
+    Restore Util.java and update all files
+
+[33mcommit b9345d860937f2746250d00f0676fff977d29f12[m
+Author: jody <jody@acm.org>
+Date:   Tue Mar 18 08:45:11 2025 -0600
+
+    Restored Util.java
+
+[33mcommit 75bae414a4a5b2b8c2a03001c317e4ba6ecc0303[m
+Author: Jody <jody@acm.org>
+Date:   Mon Mar 17 14:43:38 2025 -0600
+
+    Refactored UtilTest.java into UtilFibonTest.java and UtilDetectRepeats.java
+
+[33mcommit 83d807c3c46ab9ec1f8cca1a02ff892e52b33188[m
+Author: Jody <jody@acm.org>
+Date:   Mon Mar 17 13:05:14 2025 -0600
+
+    Added runtime target for Demo
+
+[33mcommit c071cdc94b9d42a762516672fbbc86b0b890f17d[m
+Author: Jody <jody@acm.org>
+Date:   Sat Mar 15 17:49:22 2025 -0600
+
+    Change "Interactive driver" to "CLI driver"
+
+[33mcommit e1fe8f6847d8408cc1d237d2a44769b84d7d675b[m
+Author: Jody <jody@acm.org>
+Date:   Sat Mar 15 17:46:04 2025 -0600
+
+    Revised javadoc comment identifying default symbolic constant
+
+[33mcommit 2e93cd6746f290dce480e1dfd790698aef9c7915[m
+Author: Jody <jody@acm.org>
+Date:   Sat Mar 15 17:41:45 2025 -0600
+
+    Added Demo class for CLI demonstration of Util.detectRepeats method
+
+[33mcommit 58da030bea39f2c2c533bc4858dd957ce4b24e23[m
+Author: jody <jody@acm.org>
+Date:   Tue Mar 11 08:48:38 2025 -0600
+
+    Rebuilt DecisionSupport.jar with Java 17
+
+[33mcommit 8816a3c79555c151a3cc7c577f43f35be8471e96[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Mon Mar 10 22:04:21 2025 -0600
+
+    Add subheadings and links to README.md
+
+[33mcommit d2e6a1b2a9800af96fe898d13d011f66d4def3b4[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Mon Mar 10 21:51:56 2025 -0600
+
+    Set show_githublink to false in _config.yml
+
+[33mcommit a532c2e2f49f6efe8f11aad1a7ecd40bd0dac0e7[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Mon Mar 10 21:49:56 2025 -0600
+
+    Test use of is_project_page in _config.yml
+
+[33mcommit 2b581d48ec6242b969037d284eccec8eddf5609d[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Mon Mar 10 21:48:56 2025 -0600
+
+    Reorder and add descriptive text to website
+
+[33mcommit be8a0cf9cbe474cbe5f234955e2eb6030f00e674[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Mon Mar 10 21:39:36 2025 -0600
+
+    Theme exploration in _config.yml
+
+[33mcommit f90e4c7bcbe631588aca952110ac556eae4eb91f[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Mon Mar 10 21:32:06 2025 -0600
+
+    Explore title and name in _config.yml
+
+[33mcommit de69817efb0bce63bab82f7ca71c52fedb987209[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Mon Mar 10 21:22:05 2025 -0600
+
+    Create _config.yml for website
+
+[33mcommit b8d935b2dae9ded1d629c7b9190ab756fc8ec0fa[m
+Merge: f0e7682 cec0bae
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Mon Mar 10 21:16:47 2025 -0600
+
+    Merge pull request #10 from MetroCS/websiteLinks
+    
+    Update index.md with links to jar and repo
+
+[33mcommit cec0bae8cde88c632cfa55f71daabbfb7785b267[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Mon Mar 10 21:16:08 2025 -0600
+
+    Update index.md with links to jar and repo
+
+[33mcommit f0e7682f2bac1840f9abbc66d057c750e6649a60[m
+Merge: 4e8b78f bca027e
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Mon Mar 10 21:11:32 2025 -0600
+
+    Merge pull request #9 from MetroCS/executableJar
+    
+    Added executable jar file DecisionSupport.jar
+
+[33mcommit bca027e0027a936e65708e380ea0b20c62722eb4[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Mon Mar 10 21:11:06 2025 -0600
+
+    Added executable jar file DecisionSupport.jar
+
+[33mcommit 4e8b78f12fd4811fb688f560de35785e90238733[m
+Merge: 150afd0 0a60790
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Mon Mar 10 21:08:06 2025 -0600
+
+    Merge pull request #7 from MetroCS/website-1
+    
+    Create index.md for website
+
+[33mcommit 0a60790ac5e40ecea11c400dd482d1297f655da1[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Mon Mar 10 21:07:19 2025 -0600
+
+    Create index.md for website
+
+[33mcommit 150afd072844fb9f75df4ab9ebc2a516848b1dc8[m
+Author: jody <jody@acm.org>
+Date:   Sun Mar 9 23:33:19 2025 -0600
+
+    Clean up code issues in Util and UtilTest classes
+
+[33mcommit 9455bbd4eeef44fef9ec9a5c43db1485ad814699[m
+Author: jody <jody@acm.org>
+Date:   Sun Mar 9 23:31:33 2025 -0600
+
+    Add build framework using Ant, Checkstyle, JUnit
+
+[33mcommit 11131bb80452e783407675f9821a1349dc407f29[m
+Merge: 936e5d6 988da80
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Sun Mar 9 22:42:24 2025 -0600
+
+    Merge pull request #5 from MetroCS/Week8Updates
+    
+    Update README.md to reflect intent of repository
+
+[33mcommit 988da806cc8577b73676e425da634a7673b411bc[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Sun Mar 9 22:41:06 2025 -0600
+
+    Update README.md
+
+[33mcommit 936e5d6610d191ff0a581b67afb53696b449386b[m
+Author: jody <jody@acm.org>
+Date:   Sun Mar 9 22:38:31 2025 -0600
+
+    Added javadoc package-info.java for the unnamed package
+
+[33mcommit d4e5e3b760cdf8b617846bc97d34f57aca25f8c6[m
+Author: jody <jody@acm.org>
+Date:   Sun Mar 9 22:37:47 2025 -0600
+
+    Added scaffolding for detectRepeats in Util and UtilTest
+
+[33mcommit 9da2d36fb1ba91e9b76622eacad10922c4a370fd[m
+Merge: 3366c5e 96cfb0c
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Sun Mar 9 21:05:37 2025 -0600
+
+    Merge pull request #3 from MetroCS/Util-and-Test
+    
+    Seeding with Util class and unit test class developed previously in class
+
+[33mcommit 96cfb0c159f90ff48074b3bab3f45f64cb5cbb10[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Sun Mar 9 21:04:52 2025 -0600
+
+    Seeding with Util class developed earlier
+
+[33mcommit 3366c5e059590e57eb14c1233c4050f9af613e61[m
+Merge: d88e191 afd2498
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Sun Mar 9 20:51:33 2025 -0600
+
+    Merge pull request #2 from MetroCS/gitignore
+    
+    Update .gitignore for additional environments
+
+[33mcommit afd2498f532dfae7f7309349515bb4a529219f22[m
+Author: Jody Paul <jody@users.noreply.github.com>
+Date:   Sun Mar 9 20:51:14 2025 -0600
+
+    Update .gitignore for additional environments
+
+[33mcommit d88e1913019c225fdd4a5e1daac73901c1bd37b5[m
+Merge: bab8ccc 4652160
+Author: Jody Paul <jody@users.noreply.github.com>
+Date
